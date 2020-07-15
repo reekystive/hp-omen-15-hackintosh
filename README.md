@@ -1,2 +1,71 @@
 # hp-omen-15-hackintosh-efi
+
 OpenCore BootLoader for HP OMEN 15
+
+**Thanks to the developers of OpenCore and the other drivers used here!**
+
+## Before you use this EFI
+
+- Change the PlatformInfo
+
+## Hardware Detials
+
+This EFI was made for HP OMEN 15-dc0006TX.
+
+- CPU: Intel Core i7-8750H
+- iGPU: Intel UHD Graphics 630
+- dGPU: NVIDIA GeForce GTX 1050 Ti
+- Motherboard: HP 84DA (U3E1)
+- SSD: 119GB LITEON CA1-8D128-HP
+- HDD: 931GB Hitachi HGST HTS721010A9E630
+- Audio: Realtek ALC295
+- Bluetooth: Intel Wireless Bluetooth
+- WiFi Apdater: Intel Wireless-AC 9560 160MHz
+- Ethernet: Realtek Gaming GbE Family Controller
+- Touchpad: Synaptics SMBus TouchPad
+- Keyboard: Standard PS/2 Keyboard
+- Camera: HP Wide Vision HD Camera
+- Memory: 8GB DDR4 2666MHz
+
+You can view this product on [JD](https://item.jd.com/7649695.html).
+
+## What is working
+
+- iGPU
+- Keyboard
+- Touchpad (but the keys on it is not working)
+- USB Port (I don't know if it works with USB2.0 or USB3.0)
+- Camera
+- Built-in Speaker and Microphone
+- Audio port
+- Ethernet
+- CPU temperature monitoring
+- SSD temperature monitoring
+
+## What is not working
+
+- dGPU
+    - This will not be fixed in the future.
+- Keys on touchpad
+- Shutdown and Restart
+    - Will stuck at `Will be calling reboot(2) with flags: 0x0` with the fan spins fast.
+- Sleep
+    - After the black screen, the fan spins fast, cannot sleep and cannot wake up.
+- WiFi
+    - You can use [itlwm](https://github.com/OpenIntelWireless/itlwm), It works but unstable.
+- Bluetooth
+- NVRAM
+    - You cannot store some information such as brightness.
+- Battery level display
+- Fan speed control
+- Fn key and NumLock key
+
+## Some magical issues
+
+- Sometimes there is no backlight when you turn it on. You can see there is content on the screen if you are willing to spend a lot of effort. After a while, the backlight will return to normal.
+- The locked state of the keyboard light and touchpad will be reset when shutting down or restarting. But there are a few times that it has not been reset.
+- As mentioned in the previous article, a "non-HP battery" will be warned when the device is turned on when it has not been reset. Don't worry, this will disappear in the next boot.
+
+## Reference
+
+- [Vanilla Laptop Guide](https://dortania.github.io/vanilla-laptop-guide/)
