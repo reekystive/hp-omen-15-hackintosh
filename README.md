@@ -45,14 +45,14 @@ You can view this product on [JD](https://item.jd.com/7649695.html).
 - CPU temperature monitoring
 - SSD temperature monitoring
 - Battery
+- Shutdown, reboot and sleep
+    - You can also close the laptop lid to sleep.
 
 ## What is not working
 
 - dGPU
     - This will not be fixed in the future.
 - Keys on touchpad
-- Sleep
-    - After the black screen, the fan spins fast, cannot sleep and cannot wake up.
 - Bluetooth
 - NVRAM
     - You cannot store some information such as brightness.
