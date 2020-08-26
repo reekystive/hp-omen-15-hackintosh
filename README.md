@@ -39,6 +39,8 @@ You can view this product on [JD](https://item.jd.com/7649695.html).
 - Built-in Speaker and Microphone
 - Audio port
 - Ethernet
+- WiFi
+    - To connect to a WiFi, you need [HeliPort](https://github.com/OpenIntelWireless/HeliPort/releases/latest).
 - CPU temperature monitoring
 - SSD temperature monitoring
 
@@ -51,8 +53,6 @@ You can view this product on [JD](https://item.jd.com/7649695.html).
     - Will stuck at `Will be calling reboot(2) with flags: 0x0` with the fan spins fast.
 - Sleep
     - After the black screen, the fan spins fast, cannot sleep and cannot wake up.
-- WiFi
-    - You can use [itlwm](https://github.com/OpenIntelWireless/itlwm), It works but unstable.
 - Bluetooth
 - NVRAM
     - You cannot store some information such as brightness.
