@@ -49,8 +49,6 @@ You can view this product on [JD](https://item.jd.com/7649695.html).
 - dGPU
     - This will not be fixed in the future.
 - Keys on touchpad
-- Shutdown and Restart
-    - Will stuck at `Will be calling reboot(2) with flags: 0x0` with the fan spins fast.
 - Sleep
     - After the black screen, the fan spins fast, cannot sleep and cannot wake up.
 - Bluetooth
