@@ -32,6 +32,7 @@ You can view this product on [JD](https://item.jd.com/7649695.html).
 ## What is working
 
 - iGPU
+    - Backlight is working fine.
 - Keyboard
 - Touchpad (but the keys on it is not working)
 - USB Port (I don't know if it works with USB2.0 or USB3.0)
@@ -60,7 +61,6 @@ You can view this product on [JD](https://item.jd.com/7649695.html).
 
 ## Some magical issues
 
-- Sometimes there is no backlight when you turn it on. You can see there is content on the screen if you are willing to spend a lot of effort. After a while, the backlight will return to normal.
 - The locked state of the keyboard light and touchpad will be reset when shutting down or restarting. But there are a few times that it has not been reset.
 - As mentioned in the previous article, a "non-HP battery" will be warned when the device is turned on when it has not been reset. Don't worry, this will disappear in the next boot.
 
