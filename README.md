@@ -44,6 +44,7 @@ You can view this product on [JD](https://item.jd.com/7649695.html).
     - To connect to a WiFi, you need [HeliPort](https://github.com/OpenIntelWireless/HeliPort/releases/latest).
 - CPU temperature monitoring
 - SSD temperature monitoring
+- Battery
 
 ## What is not working
 
@@ -55,14 +56,8 @@ You can view this product on [JD](https://item.jd.com/7649695.html).
 - Bluetooth
 - NVRAM
     - You cannot store some information such as brightness.
-- Battery level display
 - Fan speed control
 - Fn key and NumLock key
-
-## Some magical issues
-
-- The locked state of the keyboard light and touchpad will be reset when shutting down or restarting. But there are a few times that it has not been reset.
-- As mentioned in the previous article, a "non-HP battery" will be warned when the device is turned on when it has not been reset. Don't worry, this will disappear in the next boot.
 
 ## Reference
 
