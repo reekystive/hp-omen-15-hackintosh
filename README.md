@@ -1,5 +1,7 @@
 # hp-omen-15-hackintosh-efi
 
+**Discontinued. I have purchased MacBook Air M1 and no longer own this laptop.**
+
 OpenCore BootLoader for HP OMEN 15
 
 **Thanks to the developers of OpenCore and the other drivers used here!**
